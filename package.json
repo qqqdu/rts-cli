@@ -1,0 +1,29 @@
+{
+  "name": "rtc-cli",
+  "version": "1.0.0",
+  "description": "create React Typescript App",
+  "main": "index.js",
+  "bin": {
+    "rts-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qqqdu/rts-cli.git"
+  },
+  "author": "duhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qqqdu/rts-cli/issues"
+  },
+  "homepage": "https://github.com/qqqdu/rts-cli#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "simple-git": "^1.126.0",
+    "commander": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "readline-sync": "^1.4.10"
+  }
+}
